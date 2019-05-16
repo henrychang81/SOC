@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Jul 25 17:45:44 2017
+# Process ID: 10228
+# Log file: D:/work/01_Zed_v201501/SBFILTER_II_0331/zed_filter/zed_filter.runs/impl_1/zynq_system_wrapper.vdi
+# Journal file: D:/work/01_Zed_v201501/SBFILTER_II_0331/zed_filter/zed_filter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source zynq_system_wrapper.tcl -notrace

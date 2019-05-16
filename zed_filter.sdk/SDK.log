@@ -1,0 +1,45 @@
+11:23:42 INFO  : Processing command line option -hwspec D:/Work/01_Zed_v201501/SBFILTER/zed_filter/zed_filter.sdk/zynq_system_wrapper.hdf.
+11:23:49 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:24:01 INFO  : XSDB server has started successfully.
+11:24:47 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+11:26:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:26:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492438" && level==0} -index 1' command is executed.
+11:26:45 INFO  : FPGA configured successfully with bitstream "D:/Work/01_Zed_v201501/SBFILTER/zed_filter/zed_filter.sdk/zynq_system_wrapper_hw_platform_0/zynq_system_wrapper.bit"
+11:27:52 INFO  : ps7_init is completed.
+11:27:52 INFO  : ps7_post_config is completed.
+11:27:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:30:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:30:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:31:55 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:49:07 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+13:49:09 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1459403061645,  Project:1459394456115
+13:49:09 INFO  : Project zynq_system_wrapper_hw_platform_0's source hardware specification located at D:/Work/01_Zed_v201501/SBFILTER/zed_filter/zed_filter.sdk/zynq_system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+13:49:20 INFO  : XSDB server has started successfully.
+13:50:07 INFO  : Project zynq_system_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+13:50:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:50:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492438" && level==0} -index 1' command is executed.
+13:50:28 INFO  : FPGA configured successfully with bitstream "D:/Work/01_Zed_v201501/SBFILTER_II_0331/zed_filter_II_0331/zed_filter.sdk/zynq_system_wrapper_hw_platform_0/zynq_system_wrapper.bit"
+13:50:50 INFO  : ps7_init is completed.
+13:50:51 INFO  : ps7_post_config is completed.
+13:50:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:53:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:54:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:54:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492438" && level==0} -index 1' command is executed.
+13:54:49 INFO  : FPGA configured successfully with bitstream "D:/Work/01_Zed_v201501/SBFILTER_II_0331/zed_filter_II_0331/zed_filter.sdk/zynq_system_wrapper_hw_platform_0/zynq_system_wrapper.bit"
+13:54:58 INFO  : ps7_init is completed.
+13:54:58 INFO  : ps7_post_config is completed.
+13:54:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:56:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:56:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:58:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:58:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:59:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:59:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248492438" && level==0} -index 1' command is executed.
+13:59:30 INFO  : FPGA configured successfully with bitstream "D:/Work/01_Zed_v201501/SBFILTER_II_0331/zed_filter_II_0331/zed_filter.sdk/zynq_system_wrapper_hw_platform_0/zynq_system_wrapper.bit"
+13:59:41 INFO  : ps7_init is completed.
+13:59:41 INFO  : ps7_post_config is completed.
+13:59:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:00:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:52:26 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.3/scripts/xsdb/xsdb/xsdb-server.tcl
+13:52:31 INFO  : XSDB server has started successfully.

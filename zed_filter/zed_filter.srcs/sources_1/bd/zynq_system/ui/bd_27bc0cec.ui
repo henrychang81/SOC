@@ -1,0 +1,51 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 360 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 380 -defaultsOSRD
+preplace port hd_iic -pg 1 -y 1010 -defaultsOSRD
+preplace inst axi_mem_intercon_1 -pg 1 -lvl 4 -y 160 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 1 -y 690 -defaultsOSRD
+preplace inst filter_vdma_U -pg 1 -lvl 3 -y 130 -defaultsOSRD
+preplace inst hdmitx_vdma_U -pg 1 -lvl 3 -y 580 -defaultsOSRD
+preplace inst hdmitx_U -pg 1 -lvl 4 -y 730 -defaultsOSRD
+preplace inst filter_top_U -pg 1 -lvl 1 -y 1070 -defaultsOSRD
+preplace inst hdmitx_clkgen_U -pg 1 -lvl 3 -y 830 -defaultsOSRD
+preplace inst hdmitx_iic_U -pg 1 -lvl 5 -y 1030 -defaultsOSRD
+preplace inst rst_processing_system7_0_142M -pg 1 -lvl 3 -y 360 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -y 440 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 2 -y 820 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -y 460 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 5 1 N
+preplace netloc rst_processing_system7_0_142M_peripheral_aresetn 1 3 1 1010
+preplace netloc hdmitx_vdma_U_M_AXI_MM2S 1 3 1 1000
+preplace netloc processing_system7_0_axi_periph_M03_AXI 1 2 1 600
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 2 3 630 750 NJ 1010 NJ
+preplace netloc hdmitx_U_m_axis_mm2s_fsync 1 2 3 660 730 1010 920 1340
+preplace netloc axi_mem_intercon_1_M00_AXI 1 4 1 1360
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 5 330 1040 NJ 1040 NJ 1040 NJ 730 1860
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 6 20 780 NJ 1050 NJ 1050 NJ 1050 NJ 740 1840
+preplace netloc hdmitx_vdma_U_M_AXIS_MM2S 1 3 1 980
+preplace netloc axi_mem_intercon_M00_AXI 1 4 1 N
+preplace netloc filter_vdma_U_M_AXI_S2MM 1 3 1 N
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 2 2 610 470 NJ
+preplace netloc rst_processing_system7_0_142M_interconnect_aresetn 1 3 1 980
+preplace netloc processing_system7_0_FCLK_RESET1_N 1 2 4 660 270 NJ 310 NJ 290 1850
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 1 4 310 1030 640 1060 990 1070 NJ
+preplace netloc hdmitx_iic_U_IIC 1 5 1 N
+preplace netloc processing_system7_0_FIXED_IO 1 5 1 N
+preplace netloc hdmitx_clkgen_U_clk 1 3 1 1020
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 1 1 310
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 20 600 320 1020 620 740 1000 1060 1360 630 1830
+preplace netloc processing_system7_0_FCLK_CLK1 1 2 4 650 460 1030 320 1340 640 1820
+preplace netloc filter_vdma_U_M_AXI_MM2S 1 3 1 N
+preplace netloc processing_system7_0_axi_periph_M04_AXI 1 2 1 590
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 2 1 N
+preplace netloc processing_system7_0_FCLK_CLK2 1 2 4 660 1020 NJ 1020 NJ 720 1810
+levelinfo -pg 1 0 160 460 820 1190 1600 1880
+",
+}
+{
+   da_axi4_cnt: "8",
+   da_ps7_cnt: "1",
+}

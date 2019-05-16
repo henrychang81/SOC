@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Tue Jul 25 17:53:34 2017
+# Process ID: 8588
+# Log file: D:/work/01_Zed_v201501/SBFILTER_II_0331/zed_filter/zed_filter.sdk/webtalk/webtalk.log
+# Journal file: D:/work/01_Zed_v201501/SBFILTER_II_0331/zed_filter/zed_filter.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

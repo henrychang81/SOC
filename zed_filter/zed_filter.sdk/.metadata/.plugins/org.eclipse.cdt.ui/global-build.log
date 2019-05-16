@@ -1,0 +1,1276 @@
+11:24:51 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+11:26:05 **** Clean-only build of configuration Debug for project demo_yuv1080p_filter ****
+make clean 
+rm -rf  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o  ./src/RdSDImg.d ./src/SetAdv7511.d ./src/demo_yuv1080p_filter.d ./src/ff.d ./src/mmc.d ./src/platform.d  demo_yuv1080p_filter.elf.size  demo_yuv1080p_filter.elf
+' '
+11:26:05 **** Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/RdSDImg.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RdSDImg.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/RdSDImg.d" -MT"src/RdSDImg.d" -o "src/RdSDImg.o" "../src/RdSDImg.c"
+../src/RdSDImg.c: In function 'RdSDImg':
+../src/RdSDImg.c:94:2: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+  MoveBmp((u32 *)(0x0), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+  ^
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:94:2: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c: In function 'RdSDVideo':
+../src/RdSDImg.c:124:5: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+     MoveBmp((u32 *)(IMGFILE_SIZE*FrmIdx), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+     ^
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:124:5: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+'Finished building: ../src/RdSDImg.c'
+' '
+'Building file: ../src/SetAdv7511.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SetAdv7511.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/SetAdv7511.d" -MT"src/SetAdv7511.d" -o "src/SetAdv7511.o" "../src/SetAdv7511.c"
+'Finished building: ../src/SetAdv7511.c'
+' '
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building file: ../src/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ff.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ff.d" -MT"src/ff.d" -o "src/ff.o" "../src/ff.c"
+'Finished building: ../src/ff.c'
+' '
+'Building file: ../src/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mmc.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/mmc.d" -MT"src/mmc.d" -o "src/mmc.o" "../src/mmc.c"
+../src/mmc.c: In function 'init_port':
+../src/mmc.c:123:2: warning: implicit declaration of function 'Xil_Out8' [-Wimplicit-function-declaration]
+  sd_out8(SD_PWR_CTRL_R, 0);
+  ^
+../src/mmc.c:126:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  sd_out32(SD_SIG_ENA_R, 0);
+  ^
+../src/mmc.c:132:2: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+  while (sd_in8(SD_SOFT_RST_R)) {
+  ^
+../src/mmc.c:145:2: warning: implicit declaration of function 'Xil_Out16' [-Wimplicit-function-declaration]
+  sd_out16(SD_CLK_CTL_R, clk);
+  ^
+../src/mmc.c:147:3: warning: implicit declaration of function 'Xil_In16' [-Wimplicit-function-declaration]
+   clk = sd_in16(SD_CLK_CTL_R);
+   ^
+../src/mmc.c: In function 'send_cmd':
+../src/mmc.c:309:4: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+    status = sd_in32(SD_PRES_STATE_R);
+    ^
+'Finished building: ../src/mmc.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82000	   2328	  23276	 107604	  1a454	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+11:27:39 **** Auto Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82000	   2328	  23276	 107604	  1a454	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+11:27:46 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+11:29:40 **** Clean-only build of configuration Debug for project demo_yuv1080p ****
+make clean 
+rm -rf  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p.o ./src/ff.o ./src/mmc.o ./src/platform.o  ./src/RdSDImg.d ./src/SetAdv7511.d ./src/demo_yuv1080p.d ./src/ff.d ./src/mmc.d ./src/platform.d  demo_yuv1080p.elf.size  demo_yuv1080p.elf
+' '
+11:29:42 **** Build of configuration Debug for project demo_yuv1080p ****
+make all 
+'Building file: ../src/RdSDImg.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RdSDImg.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/RdSDImg.d" -MT"src/RdSDImg.d" -o "src/RdSDImg.o" "../src/RdSDImg.c"
+../src/RdSDImg.c: In function 'RdSDImg':
+../src/RdSDImg.c:94:2: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+  MoveBmp((u32 *)(0x0), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+  ^
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:94:2: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c: In function 'RdSDVideo':
+../src/RdSDImg.c:124:5: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+     MoveBmp((u32 *)(IMGFILE_SIZE*FrmIdx), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+     ^
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:124:5: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+'Finished building: ../src/RdSDImg.c'
+' '
+'Building file: ../src/SetAdv7511.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SetAdv7511.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/SetAdv7511.d" -MT"src/SetAdv7511.d" -o "src/SetAdv7511.o" "../src/SetAdv7511.c"
+'Finished building: ../src/SetAdv7511.c'
+' '
+'Building file: ../src/demo_yuv1080p.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p.d" -MT"src/demo_yuv1080p.d" -o "src/demo_yuv1080p.o" "../src/demo_yuv1080p.c"
+In file included from ../src/demo_yuv1080p.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p.c'
+' '
+'Building file: ../src/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ff.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ff.d" -MT"src/ff.d" -o "src/ff.o" "../src/ff.c"
+'Finished building: ../src/ff.c'
+' '
+'Building file: ../src/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mmc.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/mmc.d" -MT"src/mmc.d" -o "src/mmc.o" "../src/mmc.c"
+../src/mmc.c: In function 'init_port':
+../src/mmc.c:123:2: warning: implicit declaration of function 'Xil_Out8' [-Wimplicit-function-declaration]
+  sd_out8(SD_PWR_CTRL_R, 0);
+  ^
+../src/mmc.c:126:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  sd_out32(SD_SIG_ENA_R, 0);
+  ^
+../src/mmc.c:132:2: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+  while (sd_in8(SD_SOFT_RST_R)) {
+  ^
+../src/mmc.c:145:2: warning: implicit declaration of function 'Xil_Out16' [-Wimplicit-function-declaration]
+  sd_out16(SD_CLK_CTL_R, clk);
+  ^
+../src/mmc.c:147:3: warning: implicit declaration of function 'Xil_In16' [-Wimplicit-function-declaration]
+   clk = sd_in16(SD_CLK_CTL_R);
+   ^
+../src/mmc.c: In function 'send_cmd':
+../src/mmc.c:309:4: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+    status = sd_in32(SD_PRES_STATE_R);
+    ^
+'Finished building: ../src/mmc.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: demo_yuv1080p.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p.elf  |tee "demo_yuv1080p.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81560	   2328	  23276	 107164	  1a29c	demo_yuv1080p.elf
+'Finished building: demo_yuv1080p.elf.size'
+' '
+11:30:12 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+11:30:14 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+11:30:33 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+11:30:34 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+11:31:41 **** Auto Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82000	   2328	  23276	 107604	  1a454	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+13:50:34 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+13:50:40 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+13:51:50 **** Auto Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82000	   2328	  23276	 107604	  1a454	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+13:52:40 **** Auto Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82048	   2328	  23276	 107652	  1a484	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+13:53:07 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+13:53:08 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+13:54:54 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+13:54:55 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+13:56:17 **** Auto Build of configuration Debug for project demo_yuv1080p ****
+make all 
+'Building file: ../src/demo_yuv1080p.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p.d" -MT"src/demo_yuv1080p.d" -o "src/demo_yuv1080p.o" "../src/demo_yuv1080p.c"
+In file included from ../src/demo_yuv1080p.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p.c'
+' '
+'Building target: demo_yuv1080p.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p.elf  |tee "demo_yuv1080p.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81560	   2328	  23276	 107164	  1a29c	demo_yuv1080p.elf
+'Finished building: demo_yuv1080p.elf.size'
+' '
+13:56:34 **** Auto Build of configuration Debug for project demo_yuv1080p ****
+make all 
+'Building file: ../src/demo_yuv1080p.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p.d" -MT"src/demo_yuv1080p.d" -o "src/demo_yuv1080p.o" "../src/demo_yuv1080p.c"
+In file included from ../src/demo_yuv1080p.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p.c'
+' '
+'Building target: demo_yuv1080p.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p.elf  |tee "demo_yuv1080p.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81608	   2328	  23276	 107212	  1a2cc	demo_yuv1080p.elf
+'Finished building: demo_yuv1080p.elf.size'
+' '
+13:56:42 **** Auto Build of configuration Debug for project demo_yuv1080p ****
+make all 
+'Building file: ../src/demo_yuv1080p.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p.d" -MT"src/demo_yuv1080p.d" -o "src/demo_yuv1080p.o" "../src/demo_yuv1080p.c"
+In file included from ../src/demo_yuv1080p.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p.c'
+' '
+'Building target: demo_yuv1080p.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p.elf  |tee "demo_yuv1080p.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81608	   2328	  23276	 107212	  1a2cc	demo_yuv1080p.elf
+'Finished building: demo_yuv1080p.elf.size'
+' '
+13:56:50 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+13:56:51 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+13:58:08 **** Auto Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82048	   2328	  23276	 107652	  1a484	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+13:58:20 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+13:58:21 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+13:59:38 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+13:59:38 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+17:48:04 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+17:48:44 **** Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/RdSDImg.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RdSDImg.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/RdSDImg.d" -MT"src/RdSDImg.d" -o "src/RdSDImg.o" "../src/RdSDImg.c"
+../src/RdSDImg.c: In function 'RdSDImg':
+../src/RdSDImg.c:94:2: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+  MoveBmp((u32 *)(0x0), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+  ^
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:94:2: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c: In function 'RdSDVideo':
+../src/RdSDImg.c:124:5: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+     MoveBmp((u32 *)(IMGFILE_SIZE*FrmIdx), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+     ^
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:124:5: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+'Finished building: ../src/RdSDImg.c'
+' '
+'Building file: ../src/SetAdv7511.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SetAdv7511.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/SetAdv7511.d" -MT"src/SetAdv7511.d" -o "src/SetAdv7511.o" "../src/SetAdv7511.c"
+'Finished building: ../src/SetAdv7511.c'
+' '
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building file: ../src/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ff.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ff.d" -MT"src/ff.d" -o "src/ff.o" "../src/ff.c"
+'Finished building: ../src/ff.c'
+' '
+'Building file: ../src/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mmc.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/mmc.d" -MT"src/mmc.d" -o "src/mmc.o" "../src/mmc.c"
+../src/mmc.c: In function 'init_port':
+../src/mmc.c:123:2: warning: implicit declaration of function 'Xil_Out8' [-Wimplicit-function-declaration]
+  sd_out8(SD_PWR_CTRL_R, 0);
+  ^
+../src/mmc.c:126:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  sd_out32(SD_SIG_ENA_R, 0);
+  ^
+../src/mmc.c:132:2: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+  while (sd_in8(SD_SOFT_RST_R)) {
+  ^
+../src/mmc.c:145:2: warning: implicit declaration of function 'Xil_Out16' [-Wimplicit-function-declaration]
+  sd_out16(SD_CLK_CTL_R, clk);
+  ^
+../src/mmc.c:147:3: warning: implicit declaration of function 'Xil_In16' [-Wimplicit-function-declaration]
+   clk = sd_in16(SD_CLK_CTL_R);
+   ^
+../src/mmc.c: In function 'send_cmd':
+../src/mmc.c:309:4: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+    status = sd_in32(SD_PRES_STATE_R);
+    ^
+'Finished building: ../src/mmc.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82048	   2328	  23276	 107652	  1a484	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+17:48:49 **** Build of configuration Debug for project demo_yuv1080p ****
+make all 
+'Building file: ../src/RdSDImg.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RdSDImg.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/RdSDImg.d" -MT"src/RdSDImg.d" -o "src/RdSDImg.o" "../src/RdSDImg.c"
+../src/RdSDImg.c: In function 'RdSDImg':
+../src/RdSDImg.c:94:2: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+  MoveBmp((u32 *)(0x0), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+  ^
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:94:2: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c: In function 'RdSDVideo':
+../src/RdSDImg.c:124:5: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+     MoveBmp((u32 *)(IMGFILE_SIZE*FrmIdx), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+     ^
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:124:5: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+'Finished building: ../src/RdSDImg.c'
+' '
+'Building file: ../src/SetAdv7511.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SetAdv7511.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/SetAdv7511.d" -MT"src/SetAdv7511.d" -o "src/SetAdv7511.o" "../src/SetAdv7511.c"
+'Finished building: ../src/SetAdv7511.c'
+' '
+'Building file: ../src/demo_yuv1080p.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p.d" -MT"src/demo_yuv1080p.d" -o "src/demo_yuv1080p.o" "../src/demo_yuv1080p.c"
+In file included from ../src/demo_yuv1080p.c:8:0:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p.c'
+' '
+'Building file: ../src/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ff.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ff.d" -MT"src/ff.d" -o "src/ff.o" "../src/ff.c"
+'Finished building: ../src/ff.c'
+' '
+'Building file: ../src/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mmc.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/mmc.d" -MT"src/mmc.d" -o "src/mmc.o" "../src/mmc.c"
+../src/mmc.c: In function 'init_port':
+../src/mmc.c:123:2: warning: implicit declaration of function 'Xil_Out8' [-Wimplicit-function-declaration]
+  sd_out8(SD_PWR_CTRL_R, 0);
+  ^
+../src/mmc.c:126:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  sd_out32(SD_SIG_ENA_R, 0);
+  ^
+../src/mmc.c:132:2: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+  while (sd_in8(SD_SOFT_RST_R)) {
+  ^
+../src/mmc.c:145:2: warning: implicit declaration of function 'Xil_Out16' [-Wimplicit-function-declaration]
+  sd_out16(SD_CLK_CTL_R, clk);
+  ^
+../src/mmc.c:147:3: warning: implicit declaration of function 'Xil_In16' [-Wimplicit-function-declaration]
+   clk = sd_in16(SD_CLK_CTL_R);
+   ^
+../src/mmc.c: In function 'send_cmd':
+../src/mmc.c:309:4: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+    status = sd_in32(SD_PRES_STATE_R);
+    ^
+'Finished building: ../src/mmc.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: demo_yuv1080p.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "demo_yuv1080p.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p.elf  |tee "demo_yuv1080p.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81608	   2328	  23276	 107212	  1a2cc	demo_yuv1080p.elf
+'Finished building: demo_yuv1080p.elf.size'
+' '
+17:49:59 **** Build of project standalone_bsp_1 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+17:50:32 **** Clean-only build of configuration Debug for project demo_yuv1080p_filter ****
+make clean 
+rm -rf  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o  ./src/RdSDImg.d ./src/SetAdv7511.d ./src/demo_yuv1080p_filter.d ./src/ff.d ./src/mmc.d ./src/platform.d  demo_yuv1080p_filter.elf.size  demo_yuv1080p_filter.elf
+' '
+17:50:32 **** Auto Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/RdSDImg.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RdSDImg.o" -I../../standalone_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/RdSDImg.d" -MT"src/RdSDImg.d" -o "src/RdSDImg.o" "../src/RdSDImg.c"
+../src/RdSDImg.c: In function 'RdSDImg':
+../src/RdSDImg.c:94:2: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+  MoveBmp((u32 *)(0x0), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+  ^
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:94:2: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c: In function 'RdSDVideo':
+../src/RdSDImg.c:124:5: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+     MoveBmp((u32 *)(IMGFILE_SIZE*FrmIdx), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+     ^
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:124:5: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+'Finished building: ../src/RdSDImg.c'
+' '
+'Building file: ../src/SetAdv7511.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SetAdv7511.o" -I../../standalone_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/SetAdv7511.d" -MT"src/SetAdv7511.d" -o "src/SetAdv7511.o" "../src/SetAdv7511.c"
+'Finished building: ../src/SetAdv7511.c'
+' '
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_1/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_1/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building file: ../src/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ff.o" -I../../standalone_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/ff.d" -MT"src/ff.d" -o "src/ff.o" "../src/ff.c"
+'Finished building: ../src/ff.c'
+' '
+'Building file: ../src/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mmc.o" -I../../standalone_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/mmc.d" -MT"src/mmc.d" -o "src/mmc.o" "../src/mmc.c"
+../src/mmc.c: In function 'init_port':
+../src/mmc.c:123:2: warning: implicit declaration of function 'Xil_Out8' [-Wimplicit-function-declaration]
+  sd_out8(SD_PWR_CTRL_R, 0);
+  ^
+../src/mmc.c:126:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  sd_out32(SD_SIG_ENA_R, 0);
+  ^
+../src/mmc.c:132:2: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+  while (sd_in8(SD_SOFT_RST_R)) {
+  ^
+../src/mmc.c:145:2: warning: implicit declaration of function 'Xil_Out16' [-Wimplicit-function-declaration]
+  sd_out16(SD_CLK_CTL_R, clk);
+  ^
+../src/mmc.c:147:3: warning: implicit declaration of function 'Xil_In16' [-Wimplicit-function-declaration]
+   clk = sd_in16(SD_CLK_CTL_R);
+   ^
+../src/mmc.c: In function 'send_cmd':
+../src/mmc.c:309:4: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+    status = sd_in32(SD_PRES_STATE_R);
+    ^
+'Finished building: ../src/mmc.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_1/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_1/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2328	  23292	 107732	  1a4d4	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+17:50:40 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+17:50:41 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+17:51:28 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+17:51:30 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+17:52:38 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+17:52:39 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+17:53:21 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+17:53:22 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+17:54:41 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+17:54:42 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+17:55:51 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
+17:55:52 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+17:57:28 **** Build of project standalone_bsp_2 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+17:57:59 **** Clean-only build of configuration Debug for project demo_yuv1080p_filter ****
+make clean 
+rm -rf  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o  ./src/RdSDImg.d ./src/SetAdv7511.d ./src/demo_yuv1080p_filter.d ./src/ff.d ./src/mmc.d ./src/platform.d  demo_yuv1080p_filter.elf.size  demo_yuv1080p_filter.elf
+' '
+17:57:59 **** Auto Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+'Building file: ../src/RdSDImg.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RdSDImg.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/RdSDImg.d" -MT"src/RdSDImg.d" -o "src/RdSDImg.o" "../src/RdSDImg.c"
+../src/RdSDImg.c: In function 'RdSDImg':
+../src/RdSDImg.c:94:2: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+  MoveBmp((u32 *)(0x0), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+  ^
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:94:2: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c: In function 'RdSDVideo':
+../src/RdSDImg.c:124:5: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+     MoveBmp((u32 *)(IMGFILE_SIZE*FrmIdx), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+     ^
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:124:5: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+'Finished building: ../src/RdSDImg.c'
+' '
+'Building file: ../src/SetAdv7511.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SetAdv7511.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/SetAdv7511.d" -MT"src/SetAdv7511.d" -o "src/SetAdv7511.o" "../src/SetAdv7511.c"
+'Finished building: ../src/SetAdv7511.c'
+' '
+'Building file: ../src/demo_yuv1080p_filter.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p_filter.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p_filter.d" -MT"src/demo_yuv1080p_filter.d" -o "src/demo_yuv1080p_filter.o" "../src/demo_yuv1080p_filter.c"
+In file included from ../src/demo_yuv1080p_filter.c:8:0:
+../../standalone_bsp_2/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_2/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p_filter.c'
+' '
+'Building file: ../src/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ff.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/ff.d" -MT"src/ff.d" -o "src/ff.o" "../src/ff.c"
+'Finished building: ../src/ff.c'
+' '
+'Building file: ../src/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mmc.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/mmc.d" -MT"src/mmc.d" -o "src/mmc.o" "../src/mmc.c"
+../src/mmc.c: In function 'init_port':
+../src/mmc.c:123:2: warning: implicit declaration of function 'Xil_Out8' [-Wimplicit-function-declaration]
+  sd_out8(SD_PWR_CTRL_R, 0);
+  ^
+../src/mmc.c:126:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  sd_out32(SD_SIG_ENA_R, 0);
+  ^
+../src/mmc.c:132:2: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+  while (sd_in8(SD_SOFT_RST_R)) {
+  ^
+../src/mmc.c:145:2: warning: implicit declaration of function 'Xil_Out16' [-Wimplicit-function-declaration]
+  sd_out16(SD_CLK_CTL_R, clk);
+  ^
+../src/mmc.c:147:3: warning: implicit declaration of function 'Xil_In16' [-Wimplicit-function-declaration]
+   clk = sd_in16(SD_CLK_CTL_R);
+   ^
+../src/mmc.c: In function 'send_cmd':
+../src/mmc.c:309:4: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+    status = sd_in32(SD_PRES_STATE_R);
+    ^
+'Finished building: ../src/mmc.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: demo_yuv1080p_filter.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_2/ps7_cortexa9_0/lib -o "demo_yuv1080p_filter.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p_filter.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p_filter.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p_filter.elf  |tee "demo_yuv1080p_filter.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82112	   2328	  23292	 107732	  1a4d4	demo_yuv1080p_filter.elf
+'Finished building: demo_yuv1080p_filter.elf.size'
+' '
+17:58:08 **** Clean-only build of configuration Debug for project demo_yuv1080p ****
+make clean 
+rm -rf  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p.o ./src/ff.o ./src/mmc.o ./src/platform.o  ./src/RdSDImg.d ./src/SetAdv7511.d ./src/demo_yuv1080p.d ./src/ff.d ./src/mmc.d ./src/platform.d  demo_yuv1080p.elf.size  demo_yuv1080p.elf
+' '
+17:58:08 **** Auto Build of configuration Debug for project demo_yuv1080p ****
+make all 
+'Building file: ../src/RdSDImg.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/RdSDImg.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/RdSDImg.d" -MT"src/RdSDImg.d" -o "src/RdSDImg.o" "../src/RdSDImg.c"
+../src/RdSDImg.c: In function 'RdSDImg':
+../src/RdSDImg.c:94:2: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+  MoveBmp((u32 *)(0x0), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+  ^
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:94:2: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:94:2: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c: In function 'RdSDVideo':
+../src/RdSDImg.c:124:5: warning: passing argument 1 of 'MoveBmp' makes integer from pointer without a cast
+     MoveBmp((u32 *)(IMGFILE_SIZE*FrmIdx), (u32 *)(IMGFILE_DDRBASE), (u32)IMGFILE_SIZE);
+     ^
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+../src/RdSDImg.c:124:5: warning: passing argument 2 of 'MoveBmp' makes integer from pointer without a cast
+../src/RdSDImg.c:124:5: note: expected 'u32' but argument is of type 'u32 *'
+'Finished building: ../src/RdSDImg.c'
+' '
+'Building file: ../src/SetAdv7511.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/SetAdv7511.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/SetAdv7511.d" -MT"src/SetAdv7511.d" -o "src/SetAdv7511.o" "../src/SetAdv7511.c"
+'Finished building: ../src/SetAdv7511.c'
+' '
+'Building file: ../src/demo_yuv1080p.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo_yuv1080p.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/demo_yuv1080p.d" -MT"src/demo_yuv1080p.d" -o "src/demo_yuv1080p.o" "../src/demo_yuv1080p.c"
+In file included from ../src/demo_yuv1080p.c:8:0:
+../../standalone_bsp_2/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_2/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/demo_yuv1080p.c'
+' '
+'Building file: ../src/ff.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ff.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/ff.d" -MT"src/ff.d" -o "src/ff.o" "../src/ff.c"
+'Finished building: ../src/ff.c'
+' '
+'Building file: ../src/mmc.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mmc.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/mmc.d" -MT"src/mmc.d" -o "src/mmc.o" "../src/mmc.c"
+../src/mmc.c: In function 'init_port':
+../src/mmc.c:123:2: warning: implicit declaration of function 'Xil_Out8' [-Wimplicit-function-declaration]
+  sd_out8(SD_PWR_CTRL_R, 0);
+  ^
+../src/mmc.c:126:2: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+  sd_out32(SD_SIG_ENA_R, 0);
+  ^
+../src/mmc.c:132:2: warning: implicit declaration of function 'Xil_In8' [-Wimplicit-function-declaration]
+  while (sd_in8(SD_SOFT_RST_R)) {
+  ^
+../src/mmc.c:145:2: warning: implicit declaration of function 'Xil_Out16' [-Wimplicit-function-declaration]
+  sd_out16(SD_CLK_CTL_R, clk);
+  ^
+../src/mmc.c:147:3: warning: implicit declaration of function 'Xil_In16' [-Wimplicit-function-declaration]
+   clk = sd_in16(SD_CLK_CTL_R);
+   ^
+../src/mmc.c: In function 'send_cmd':
+../src/mmc.c:309:4: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+    status = sd_in32(SD_PRES_STATE_R);
+    ^
+'Finished building: ../src/mmc.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../standalone_bsp_2/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: demo_yuv1080p.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_2/ps7_cortexa9_0/lib -o "demo_yuv1080p.elf"  ./src/RdSDImg.o ./src/SetAdv7511.o ./src/demo_yuv1080p.o ./src/ff.o ./src/mmc.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo_yuv1080p.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size demo_yuv1080p.elf  |tee "demo_yuv1080p.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81672	   2328	  23292	 107292	  1a31c	demo_yuv1080p.elf
+'Finished building: demo_yuv1080p.elf.size'
+' '
+17:58:29 **** Incremental Build of configuration Debug for project demo_yuv1080p_filter ****
+make all 
+make: Nothing to be done for `all'.
+17:58:29 **** Incremental Build of configuration Debug for project demo_yuv1080p ****
+make all 
+make: Nothing to be done for `all'.
