@@ -1,7 +1,7 @@
 # **研究所課程 : 系統晶片整合設計實驗**
 ---
 
-這個課主要教我們使用 vivado 設計 ip，將 ip 加入 PL 中，PL 與 PS 的軟硬結合、timing 的除錯等等
+這個課主要教我們使用 vivado 設計 ip、將 ip 加入 PL 中、PL 與 PS 的軟硬結合、timing 的除錯等等
 
 總共有 7 個實驗，第 7 個實驗 從 SD card 讀入一個 yuv 格式的影片檔，透過寫好的 sobel filter 濾波後即時顯示於螢幕上
 
@@ -20,7 +20,7 @@ Laplacian Filter 是二階濾波器，對於雜訊的反應更加明顯，因此
 [程式碼](./ip_repo/cic.narl.org.tw_user_filter_top_v4_0/package_filter_top_v4_0.srcs/sources_1/imports/verilog_filter_top_v4_0/Median_filter.v)：
 **soc_hw / ip_repo / cic.narl.org.tw_user_filter_top_v4_0 / package_filter_top_v4_0.srcs / sources_1 / imports / verilog_filter_top_v4_0 / Median_filter.v**
 
-#### 另外在 **filter_core.v** 中加入下列程式碼：(500 行開始)
+#### 另外在 [**filter_core.v**](ip_repo/cic.narl.org.tw_user_filter_top_v4_0/package_filter_top_v4_0.srcs/sources_1/imports/verilog_filter_top_v4_0/filter_core.v) 中加入下列程式碼：(500 行開始)
 
 ```
 wire    [DBITS - 1:0]   MedianValue;
@@ -70,7 +70,7 @@ always @(posedge clk)
 #### Laplacian Filter 的 kernel 如下：
 ![Laplacian Filter](https://i.imgur.com/rDWwXQP.png)
 
-#### 另外在 **filter_core.v** 中加入下列程式碼：(570 行開始)
+#### 另外在 [**filter_core.v**](ip_repo/cic.narl.org.tw_user_filter_top_v4_0/package_filter_top_v4_0.srcs/sources_1/imports/verilog_filter_top_v4_0/filter_core.v) 中加入下列程式碼：(570 行開始)
 
 ```
 assign s_sum_Gx = filter_bypass ? {3'b0 , r_Pix_1_1} :
@@ -84,5 +84,5 @@ assign s_sum_Gy = filter_bypass ? {3'b0 , r_Pix_1_1} :
 
 最後用 vivado 將這整個實驗燒錄進 Zedboard，成果如下：
 
-[![Watch the video](https://img.youtube.com/vi/xuBknwYBclg/sddefault.jpg)](https://youtu.be/xuBknwYBclg)
+[![Watch the video](https://img.youtube.com/vi/xuBknwYBclg/maxresdefault.jpg)](https://youtu.be/xuBknwYBclg)
 
