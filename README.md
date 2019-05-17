@@ -18,7 +18,7 @@ Laplacian Filter 是二階濾波器，對於雜訊的反應更加明顯，因此
 ![Median Filter](https://i.imgur.com/bMVEpjD.png)
 
 [程式碼](./ip_repo/cic.narl.org.tw_user_filter_top_v4_0/package_filter_top_v4_0.srcs/sources_1/imports/verilog_filter_top_v4_0/Median_filter.v)：
-**soc_hw / ip_repo / cic.narl.org.tw_user_filter_top_v4_0 / package_filter_top_v4_0.srcs / sources_1 / imports / verilog_filter_top_v4_0 / Median_filter.v**
+**SOC / ip_repo / cic.narl.org.tw_user_filter_top_v4_0 / package_filter_top_v4_0.srcs / sources_1 / imports / verilog_filter_top_v4_0 / Median_filter.v**
 
 #### 另外在 [**filter_core.v**](ip_repo/cic.narl.org.tw_user_filter_top_v4_0/package_filter_top_v4_0.srcs/sources_1/imports/verilog_filter_top_v4_0/filter_core.v) 中加入下列程式碼：(500 行開始)
 
