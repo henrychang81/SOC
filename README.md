@@ -1,7 +1,7 @@
 # **研究所課程 : 系統晶片整合設計實驗**
 ---
 
-這個課主要教我們使用 vivado 設計 ip、將 ip 加入 PL 中、PL 與 PS 的軟硬結合、timing 的除錯等等
+這個課主要教我們使用 vivado 設計 ip、將 ip 加入 PL 中、C code 與 V code 一起運作、timing 的除錯等等
 
 總共有 7 個實驗，第 7 個實驗 從 SD card 讀入一個 yuv 格式的影片檔，透過寫好的 sobel filter 濾波後即時顯示於螢幕上
 
