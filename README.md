@@ -1,45 +1,87 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# **研究所課程 : 系統晶片整合設計實驗**
+---
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+這個課主要教我們使用 vivado 設計 ip，將 ip 加入 PL 中，PL 與 PS 的軟硬結合、timing 的除錯等等
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+總共有 7 個實驗，第 7 個實驗 從 SD card 讀入一個 yuv 格式的影片檔，透過寫好的 sobel filter 濾波後即時顯示於螢幕上
+
+大部分同學都以第 7 個實驗為基礎設計自己的期末專題
 
 ---
 
-## Edit a file
+我的專題設計 Median Filter 與 Laplacian Filter，相較於 sobel filter 是ㄧ階濾波器
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+Laplacian Filter 是二階濾波器，對於雜訊的反應更加明顯，因此 data flow 先經過 Median Filter 的模糊處理，將雜訊去除
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+閱讀過[相關文獻](https://wenku.baidu.com/view/f4b36009581b6bd97f19ea5f.html?rec_flag=default&sxts=1558001339188)後，Median Filter 設計如下：
+
+![Median Filter](https://i.imgur.com/bMVEpjD.png)
+
+[程式碼](https://bitbucket.org/henrychang810511/soc_hw/src/master/ip_repo/cic.narl.org.tw_user_filter_top_v4_0/package_filter_top_v4_0.srcs/sources_1/imports/verilog_filter_top_v4_0/Median_filter.v)：
+**soc_hw / ip_repo / cic.narl.org.tw_user_filter_top_v4_0 / package_filter_top_v4_0.srcs / sources_1 / imports / verilog_filter_top_v4_0 / Median_filter.v**
+
+#### 另外在 **filter_core.v** 中加入下列程式碼：(500 行開始)
+
+```
+wire    [DBITS - 1:0]   MedianValue;
+reg     [DBITS - 1:0]   MedianValue_core;
+
+wire    [DBITS - 1:0]   MF_Pix_0_0,MF_Pix_0_1,MF_Pix_0_2;
+wire    [DBITS - 1:0]   MF_Pix_1_0,MF_Pix_1_1,MF_Pix_1_2;
+wire    [DBITS - 1:0]   MF_Pix_2_0,MF_Pix_2_1,MF_Pix_2_2;
+
+assign MF_Pix_0_0 = r_Pix_0_0;
+assign MF_Pix_0_1 = r_Pix_0_1;
+assign MF_Pix_0_2 = r_Pix_0_2;
+assign MF_Pix_1_0 = r_Pix_1_0;
+assign MF_Pix_1_1 = r_Pix_1_1;
+assign MF_Pix_1_2 = r_Pix_1_2;
+assign MF_Pix_2_0 = r_Pix_2_0;
+assign MF_Pix_2_1 = r_Pix_2_1;
+assign MF_Pix_2_2 = r_Pix_2_2;
+
+Median_Filter#(
+    .DBITS ( DBITS ))
+Median_filter_i(
+	.RST( RST ),
+	.CLK( CLK ),
+	.Pix_0_0( MF_Pix_0_0 ),
+	.Pix_0_1( MF_Pix_0_1 ),
+	.Pix_0_2( MF_Pix_0_2 ),
+	.Pix_1_0( MF_Pix_1_0 ),
+	.Pix_1_1( MF_Pix_1_1 ),
+	.Pix_1_2( MF_Pix_1_2 ),
+	.Pix_2_0( MF_Pix_2_0 ),
+	.Pix_2_1( MF_Pix_2_1 ),
+	.Pix_2_2( MF_Pix_2_2 ),
+	.MedianValue( MedianValue )
+);
+
+//Median_Filter
+always @(posedge clk)
+    if (rst)
+	    MedianValue_core <= 0;
+	else 
+	    MedianValue_core <= MedianValue;
+```
 
 ---
 
-## Create a file
+#### Laplacian Filter 的 kernel 如下：
+![Laplacian Filter](https://i.imgur.com/rDWwXQP.png)
 
-Next, you’ll add a new file to this repository.
+#### 另外在 **filter_core.v** 中加入下列程式碼：(570 行開始)
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
+```
+assign s_sum_Gx = filter_bypass ? {3'b0 , r_Pix_1_1} :
+                                                        ( {3'b0 , MedianValue_core }  );
+	
+assign s_sum_Gy = filter_bypass ? {3'b0 , r_Pix_1_1} :
+                                                        ({2'b0 , r_Pix_1_1 , 1'b0} - {3'b0 , r_Pix_1_2} - {3'b0 , r_Pix_1_0} +
+                                                         {2'b0 , r_Pix_1_1 , 1'b0} - {3'b0 , r_Pix_0_1} + {3'b0 , r_Pix_2_1} );
+```
 ---
 
-## Clone a repository
+最後用 vivado 將這整個實驗燒錄進 Zedboard，成果如下：
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+[![Watch the video](https://img.youtube.com/vi/xuBknwYBclg/sddefault.jpg)](https://youtu.be/xuBknwYBclg)
