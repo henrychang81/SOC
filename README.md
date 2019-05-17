@@ -85,3 +85,4 @@ assign s_sum_Gy = filter_bypass ? {3'b0 , r_Pix_1_1} :
 最後用 vivado 將這整個實驗燒錄進 Zedboard，成果如下：
 
 [![Watch the video](https://img.youtube.com/vi/xuBknwYBclg/sddefault.jpg)](https://youtu.be/xuBknwYBclg)
+
